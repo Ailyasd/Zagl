@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Университетская клиника</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+
+    <div class="screen">
+        <picture class="screen__bg">
+            <source media="(min-width: 1440px)" srcset="фон.jpg">
+            <img src="фон.jpg" alt="Фон Университетской клиники БелГУ" class="screen__bg-img">
+        </picture>
+
+        <header class="header">
+            <a href="https://bsu.edu.ru" class="header__logo-link header__logo-link--left" aria-label="Сайт Медицинского института">
+                <picture class="header__picture">
+                    <source media="(min-width: 1440px)" srcset="Логотип Медицинского института.png">
+                    <img src="Логотип Медицинского института.png" alt="Логотип Медицинского института" class="header__img">
+                </picture>
+            </a>
+
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><button class="header__link">О нас</button></li>
+                    <li class="header__item"><button class="header__link">Структура</button></li>
+                    <li class="header__item"><button class="header__link">Руководство</button></li>
+                </ul>
+            </nav>
+
+            <a href="https://bsu.edu.ru" class="header__logo-right" aria-label="Сайт Поликлиники НИУ БелГУ">
+                <picture class="header__picture">
+                    <source media="(min-width: 1440px)" srcset="Логотип Поликлиника НИУ БелГУ.png">
+                    <img src="Логотип Поликлиника НИУ БелГУ.png" alt="Логотип Поликлиники НИУ БелГУ" class="header__img">
+                </picture>
+            </a>
+        </header>
+
+        <main class="main">
+            <h1 class="main__title">Университетская клиника</h1>
+        </main>
+          
+        <div id="modal" class="modal">
+            <div class="modal__content">
+                <button id="modal-close" class="modal__close" aria-label="Закрыть окно">&times;</button>
+                <h2 id="modal-title" class="modal__title-text"></h2>
+                <hr class="modal__divider">
+                <div id="modal-body" class="modal__body-text"></div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <a href="https://bsu.edu.ru" class="footer__logo-link footer__logo-link--left" aria-label="Сайт Университетской клиники">
+                <picture class="footer__picture">
+                    <source media="(min-width: 1440px)" srcset="Универститетская клиника.png">
+                    <img src="Универститетская клиника.png" alt="Логотип Университетская клиника" class="footer__img">
+                </picture>
+            </a>
+
+            <a href="https://bsu.edu.ru" class="footer__logo-link footer__logo-link--right" aria-label="Сайт МЦСИ">
+                <picture class="footer__picture">
+                    <source media="(min-width: 1440px)" srcset="МЦСИ.png">
+                    <img src="МЦСИ.png" alt="Логотип МЦСИ" class="footer__img">
+                </picture>
+            </a>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
