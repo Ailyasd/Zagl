@@ -70,7 +70,7 @@
 
 @media (hover: hover) {
   .header__logo-link:hover {
-    filter: blur(2px);
+    filter: blur(0,5px);
     transform: scale(1.05);
   }
 }
@@ -89,7 +89,7 @@
 
 @media (hover: hover) {
   .header__logo-right:hover {
-    filter: blur(2px);
+    filter: blur(0,5px);
     transform: scale(1.05);
   }
 }
@@ -208,7 +208,7 @@
 
 @media (hover: hover) {
   .footer__logo-link:hover {
-    filter: blur(2px);
+    filter: blur(0,5px);
     transform: scale(1.05);
   }
 }
@@ -229,7 +229,7 @@
 
 .header__logo-link, .header__logo-right, .footer__logo-link {
   display: flex;
-  align-items: center; /* Выравнивание по вертикали */
+  align-items: center; 
   justify-content: center;
   height: 100%;
 }
