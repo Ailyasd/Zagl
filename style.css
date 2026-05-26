@@ -70,7 +70,6 @@
 
 @media (hover: hover) {
   .header__logo-link:hover {
-    filter: blur(0,5px);
     transform: scale(1.05);
   }
 }
@@ -89,7 +88,6 @@
 
 @media (hover: hover) {
   .header__logo-right:hover {
-    filter: blur(0,5px);
     transform: scale(1.05);
   }
 }
@@ -208,7 +206,6 @@
 
 @media (hover: hover) {
   .footer__logo-link:hover {
-    filter: blur(0,5px);
     transform: scale(1.05);
   }
 }
